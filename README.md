@@ -1,18 +1,18 @@
 # Aurora-Bank-Data-Insights
 ---
 ## Company Overview
-Aurora Bank is a forward-thinking financial institution providing comprehensive credit and debit card services to customers across North America, Europe, Asia-Pacific, and Africa. Partnering with major card networks, including Mastercard, Visa, Discover, and American Express, the bank delivers seamless payment solutions to a diverse global customer base.
+Aurora Bank is a forward-thinking financial institution providing comprehensive credit card services to customers across North America, Europe, Asia-Pacific, and Africa. Partnering with major card networks, including Mastercard, Visa, Discover, and American Express, the bank delivers seamless payment solutions to a diverse global customer base.
 
 With a strong emphasis on leveraging data analytics, Aurora Bank strives to enhance operational efficiency, deepen customer engagement, and strengthen risk management strategies. By adopting innovative technologies and insights-driven approaches, the bank is committed to delivering exceptional financial services while fostering growth and ensuring security in an ever-evolving financial landscape.
 ## Brief
-The bank’s stakeholders require data analytics insights to gain a comprehensive understanding of customer profiles, enabling them to tailor services effectively. They need to have a clearer view of spending trends across their card network partners, including Mastercard, Visa, Discover, and American Express. Additionally, it is crucial to identify potential credit risks and monitor transaction errors to ensure smooth operations and minimize financial exposure. These insights empower stakeholders to make informed, data-driven decisions that drive strategic growth, improve customer satisfaction, and enhance risk management practices.
+The management team requires data analytics insights to gain a comprehensive understanding of customer profiles, enabling them to tailor services effectively. They need to have a clearer view of spending trends across their card network partners, including **Mastercard**, **Visa**, **Discover**, and **American Express**. Additionally, it is crucial to identify potential credit risks and monitor transaction errors to ensure smooth operations and minimize financial exposure. These insights empower stakeholders to make informed, data-driven decisions that drive strategic growth, improve customer satisfaction, and enhance risk management practices.
 ## Objectives
-The objectives of this data analytics project is to develop an interactive dashboard that provides stakeholders with valuable insights into customer profiles, spending trends, credit risks, and transaction errors. This dashboard will empower stakeholders to make data-driven decisions, enhance customer engagement, and optimize risk management strategies effectively.
+The objectives of this data analytics project is to develop an interactive dashboard that provides stakeholders of the bank with valuable insights into customer profiles, spending trends, credit risks, and transaction errors. This dashboard will empower the stakeholders to make data-driven decisions, enhance customer engagement, and optimize risk management strategies effectively.
 ## Key Questions
 1. What is the demographic composition of our customers in terms of gender, age group, income level, credit score, and debt levels?
 2. Which transaction categories do our customers spend the most on?
 3. Which regions account for the highest customer spending?
-4. How do transaction volumes vary across our card network partners (Mastercard, Visa, Discover, and American Express)?
+4. How do transaction volumes vary across our card network partners **(Mastercard, Visa, Discover, and American Express)**?
 5. Which card network experiences the highest rate of failed transactions?
 6. What are the primary reasons behind transaction errors?
 ## Data Collection
@@ -54,10 +54,10 @@ The analysis was divided into **4 dashboard pages**, with each pages targeting s
 ![](kpi.PNG)
 
 **Insights:** 
-- Aurora Bank currently serves 2,000 customers, comprising 1,016 females and 984 males.
-- The average annual income of customers is $45,000.
-- The average age of male customers is 45 years, while female customers have an average age of 46 years.
-- The average per capita income across all customers is $23,000, with a maximum of $163,000 and a minimum of $6,200.
+- Aurora Bank currently serves **2,000** customers, comprising **1,016** females and **984** males.
+- The average annual income of customers is **$45,000**.
+- The average age of male customers is **45 years**, while female customers have an average age of **46 years**.
+- The average per capita income across all customers is **$23,000**, with a maximum of **$163,000** and a minimum of **$6,200**.
 
 **Recommendation:** 
 - Leverage gender and age demographics to design tailored campaigns that resonate with male and female customers in their respective age groups.
@@ -68,25 +68,32 @@ The analysis was divided into **4 dashboard pages**, with each pages targeting s
 ![](age_group.PNG)
 
 **Insights:** 
-- For customers within age group 18 to 20 years, the male recorded the highest at 99 compared with the female at 92
-- For customers within age group of 21 to 30 years, the female are the highest at 185 when compared with the male at 182.
-- For customers within age group 31 to 40 years, the female are the highest at 180 when compared with the male at 166
-- For customers within age group of 41 to 50 years, the male are the highest at 191 compared with the female at 189.
-- For customers within age group 51 to 60 years the male recorded 168 compared with the female at 156
-- For customers within age group 61 to 70 years, the female recorded 105 compared with the male at 94
-- For customers within age group greater than 70 years, the female recorded the highest at 109 compared with the male at 84 
+- Among customers aged **18 to 20 years**, males recorded the highest count at **99**, compared to **92** females.
+- In the **21 to 30 age group**, females led with **185** customers, slightly surpassing males at **182**.
+- For the **31 to 40 age range**, females also outnumbered males, with **180** customers compared to **166**.
+- In the **41 to 50 age group**, males were the majority at **191**, slightly higher than females at **189**.
+- Among customers aged **51 to 60 years**, males accounted for **168**, exceeding females at **156**.
+- For the **61 to 70 age group**, females were ahead with **105** customers, compared to **94** males.
+- In the **70+ age category**, females recorded the highest count at **109**, compared to **84** males.
 
 **Recommendation:**
+- Develop targeted campaigns for different age groups, focusing on products and services that cater to the preferences and financial needs of each demographic.
+- Since males dominate the **18–20 age group**, offer tailored financial education and entry-level credit products to attract and retain these younger customers.
+- With females leading in most age categories, particularly in the **21–30, 31–40, 61–70, and 70+ age groups**, design personalized offerings such as family-oriented credit plans
 
 **3. Income Group Distribution and Credit Score:**
 
 ![](income_credit.PNG)
 
 **Insights:** 
-- 70.25% of the bank customers are low income earners, they are those category that earns below $50k, while 27.15% of the customers are middle income earners, earning between $50k to $100k, while 2.6% of the customers are high income customers earning above $100k.
-- 26.7% of the bank customers with Excellent score have a credit score of 750 and above, while 32% with Good score have a credit score of 700 and above, while 24.6% with Fair score, have a credit score of 650 and above, while 16.7% of customers with Poor score have a credit score below 650
+- **70.25%** of the bank's customers are classified as low-income earners, with annual earnings below **$50,000**. Middle-income earners, earning between **$50,000 and $100,000**, make up **27.15%** of the customer base. Meanwhile, high-income earners, with annual incomes exceeding **$100,000**, account for just **2.6%** of customers.
+- Among the bank's customers, **26.7%** have an **Excellent credit score** of **750** or higher. Those with a **Good credit score (700-749)** represent **32%** of the customer base. Customers in the **Fair category**, with credit scores ranging from **650 to 699**, make up **24.6%**, while **16.7%** fall into the **Poor category** with credit scores below **650**.
 
 **Recommendation:**
+- Since **70.25%** of customers are low-income earners, the bank should focus on developing affordable financial products and services, such as low-interest credit cards or micro-loans, to better cater to their needs.
+- With **29.75%** of customers in the middle- and high-income brackets, the bank can explore premium services, such as rewards programs, investment products, or exclusive credit cards, to maximize revenue from these segments.
+- Given that **41.3%** of customers fall into the Fair or Poor credit score categories, the bank should consider introducing financial literacy campaigns, credit-building tools, and personalized credit improvement plans to help customers enhance their scores and reduce credit risk.
+- With **58.7%** of customers having Good or Excellent credit scores, the bank can incentivize this group with tailored offers, such as higher credit limits, cashback rewards, or attractive interest rates, to drive engagement and retention.
 
 ### Page 2: Financial Health Dashboard
 
@@ -98,49 +105,65 @@ The analysis was divided into **4 dashboard pages**, with each pages targeting s
 ![](client_debt.PNG)
 
 **Insights:** 
-- The age group within 18 to 20 years, the male recorded the highest debt at $7.4m when compared with the female at $7.1m
-- The age group within 21 to  30 years, the female recorded the highest debt at $14.4m when compared with the male at $13.1m
-- The age group within 31 to  40 years, the female recorded the highest debt at $13.1m when compared with the male at $12m
-- The age group within 41 to  50 years, the male recorded the highest debt at $12.8m when compared with the female at $12.4m
-- The age group within 51 to  60 years, the male recorded the highest debt at $12.8m when compared with the female at $11.4m
-- The age group within 61 to  70 years, the female recorded the highest debt at $5.2m when compared with the male at $4.1m
-- For customers within age group greater than 70 years, the male recorded the highest at $0.9m compared with the female at $0.7m
+- Among customers aged **18 to 20 years**, **males** recorded the highest total debt at **$7.4 million**, slightly exceeding **females** at **$7.1 million**.
+- In the **21 to 30 age group**, **females** carried the highest debt, totaling **$14.4 million**, compared to **$13.1 million for males**.
+- For customers aged **31 to 40 years**, **females** also had a higher debt burden at **$13.1 million**, while **males** recorded **$12 million**.
+- Within the **41 to 50 age group**, **males** held the highest debt at **$12.8 million**, compared to **$12.4 million** for females.
+- In the **51 to 60 age range**, **males** again had the highest debt at **$12.8 million**, surpassing **females** at **$11.4 million**.
+- Among customers aged **61 to 70 years**, **females** carried a higher debt total of **$5.2 million**, compared to **$4.1 million for males**.
+- For customers **over 70 years old**, **males** recorded the highest debt at **$0.9 million**, slightly exceeding **females at $0.7 million**.
 
 **Recommendation:**
+- Develop age-specific financial literacy and debt management programs to help customers, particularly younger age groups **(18–30 years)**, manage their debt levels more effectively.
+- Address the higher debt burden among females in the **21–40 and 61–70 age groups** through personalized financial advisory services or tailored repayment plans.
+- Focus on providing refinancing or consolidation options for **males aged 41–60 years**, as they consistently have the highest debt burden in their respective age groups.
+- Offer tailored support for customers **over 70 years** to ensure their debt levels remain manageable and do not affect their financial stability in retirement.
 
 **2. Customers Debt across Income Group and Credit Score:**
 
 ![](debt_income.PNG)
 
 **Insights:** 
-- 55.06% of Customers under the low income category had the highest amount of debt, while 38.2% of middle income customers had the second highest debt and then 6.7% of  customers in the high income category had the lowest debt.
-- 31.24% of Customers with a credit score rating of "Good" had the highest debt, while 24.4% of  customers with a credit score rating of "Excellent" and "Fair" have equal levels of debt and 19.95% of customers with a credit score rating of "Poor" had the lowest debt.
-
+- Customers in the **low-income category (55.06%)** held the largest share of total debt, followed by **middle-income customers (38.2%)**, while **high-income customers** accounted for the smallest proportion of debt at **6.7%**.
+- Customers with a **"Good" credit score** made up the highest share of debt at **31.24%**. Those with **"Excellent" and "Fair" credit scores** contributed equally, each accounting for **24.4% of the debt**. Meanwhile, customers with a **"Poor" credit score** held the lowest share at **19.95%.**
+  
 **Recommendation:**
-
+- Focus on providing  debt restructuring options tailored to low-income customers, as they hold the largest share of debt. This will help mitigate default risks and improve repayment rates.
+- Develop strategies to support middle-income customers, such as offering flexible repayment plans or incentives for early repayments, as they represent a significant portion of debt.
+- For customers with **"Good" and "Fair" credit scores**, consider offering personalized financial solutions to maintain their loyalty while reducing the likelihood of increased debt accumulation.
+  
 ### Page 3: Transactions Dashboard
 
 ![](transactions.PNG)
 
 ### Key Visuals:
-**1. Spending Patterns:**
+**1. Transaction Spending Patterns:**
 
 ![](spending.PNG)
 
 **Insights:** 
-- Most of the transactions spending went into Automotive, then the second highest spending when into miscellaneous, the next spending pattern when into Retail, then spending went into Healthcare and then Entertainment. The Lowest level of spending went into Floristry.
+- The majority of **transaction spending** was directed toward the **Automotive category**, followed by **Miscellaneous** as the second-highest spending category. **Retail** accounted for the next highest spending, followed by **Healthcare and Entertainment**. **Floristry** recorded the lowest level of spending among all categories.
 
 **Recommendation:** 
+- Since the majority of spending is directed toward **Automotive**, consider exploring partnerships or targeted offers with automotive brands or services to better engage this customer segment.
+- The second-highest spending in **Miscellaneous** indicates potential for diverse customer needs. Consider launching tailored promotions or bundling services in this category to maximize revenue.
+- Given the significant portion of spending in **Retail and Healthcare**, develop customer loyalty programs or cross-promotions with retail and healthcare providers to enhance customer retention and increase sales.
+- With a moderate share of spending in **Entertainment**, explore more personalized offerings or experiences in this category to boost customer spending.
 
-**2. Spending Patterns across Region:**
+**2. Transaction Spending Pattern across Region:**
 
 ![](region.PNG)
 
 **Insights:** 
-- The top 5 States with the Most of the transactions amount occurred in California then followed by Texas, then New York, the Florida and North Carolina, with California recording the highest transaction amount.
-- The top 5 cities with the most of the transactions amount occurred in Houston, Atlanta, Orlando, Yorba Linda and Richmond with Houstan recording the highest transaction amount.
+- The **top five states** with the highest transaction amounts are **California, followed by Texas, New York, Florida, and North Carolina, with California** leading in total transaction volume.
+- The **top five cities** with the highest transaction amounts are **Houston, Atlanta, Orlando, Yorba Linda, and Richmond, with Houston** recording the highest transaction volume.
 
 **Recommendation:** 
+- Given that **California, Texas, and New York** are the top three states with the highest transaction amounts, consider focusing targeted marketing campaigns in these regions to maximize customer engagement and promote products or services that align with local spending patterns.
+- Since **Houston** leads the cities with the highest transaction amounts, it may be beneficial to explore further opportunities for growth or partnerships in **Texas**, specifically in Houston, to leverage its higher spending capacity.
+- Tailor offerings or promotions in **Florida and North Carolina** based on regional preferences and spending behaviors, as they also contribute significantly to overall transaction volumes.
+- With cities like **Houston, Atlanta, and Orlando** among the top for transaction volumes, explore partnerships, regional initiatives, or localized discounts to deepen customer relationships in these high-performing cities.
+  
 
 ### Page 4: Card Details Dashboard
 
@@ -152,31 +175,47 @@ The analysis was divided into **4 dashboard pages**, with each pages targeting s
 ![](card_detail.PNG)
 
 **Insights:** 
-- Mastercard recorded the highest in transaction amount at $3.83million, and the number of Mastercards issued is 3209 and the volume of transaction is 82,000
-- Visa Card recorded the second highest transaction amount at $2.72 million, and the number of visa cards issued is 2,326 and the volume of transaction is 60,541
-- American Express Card recorded the third highest transaction amount at $591.43k, and the number American Express cards issued is 402 and the volume of transaction is 11,287
-- Discover Cards recorded the least transaction amount at $181.76k, and the number of discover cards issued is 209 and the volume of transaction is 3,396
+- **Mastercard** led in transaction volume, recording a total of **$3.83 million**, with **3,209** cards issued and **82,000** transactions processed.
+- **Visa Card** followed as the second-highest transaction volume, with a total of **$2.72 million**, **2,326** cards issued, and **60,541** transactions processed.
+- **American Express** ranked third, with a total transaction amount of **$591.43k**, **402** cards issued, and **11,287** transactions processed.
+- **Discover Cards** recorded the lowest transaction amount at **$181.76k**, with **209** cards issued and **3,396** transactions processed.
 
 **Recommendation:** 
+- Given **Mastercard** dominance in both transaction amount and volume, Mastercard should be prioritized for targeted marketing and customer engagement initiatives. Explore potential partnerships or offers that could further drive adoption and usage.
+- With **Visa** trailing closely behind Mastercard, explore opportunities to boost Visa card usage, such as exclusive promotions or increasing cardholder benefits to close the gap.
+- Though ranked third, **American Express** shows potential for growth. Target specific customer segments with tailored campaigns to increase card issuance and usage.
+- As the lowest in transaction volume, assess the reasons behind **Discover's** underperformance. Consider revising marketing strategies, partnerships, or offering incentives to boost cardholder engagement and transaction volume.
 
 **2. Transaction Errors:**
 
 ![](error_transaction.PNG)
 
 **Insights:** 
-- The top 5 reason for most of the transaction errors was due to insufficient balance, this was followed by errors caused due to bad or incorrect pin and then followed by errors caused by technical glitch, then followed by errors caused due to bad card number and finally errors caused due to Bad expiration.
+- **Insufficient balance**, which accounted for the highest number of errors.
+- **Incorrect or bad PIN**, coming in second.
+- **Technical glitches**, which caused the third-highest number of errors.
+- **Invalid card number**, contributing to the next level of transaction issues.
+- **Expired cards**, which ranked fifth in terms of error frequency.
 
 **Recommendation:** 
+- Provide clear guidance to customers on maintaining sufficient balance, updating their PINs regularly, and ensuring their card details are accurate and up to date.
+- Consider implementing additional security measures to prevent PIN-related errors, such as offering a PIN recovery or reset option, or exploring biometric authentication for a more seamless transaction experience.
+- Work with the IT department to enhance system stability and minimize the occurrence of technical glitches. Regular software updates and robust system testing should be a priority.
+- Introduce more frequent reminders to customers to check their card expiration dates and provide an easier way for them to replace or renew expired cards.
 
 **3. Card Brands with Failed Transactions and Credit Limit:**
 
 ![](failed.PNG)
 
 **Insights:** 
-- 46.44% of Mastercard transactions failed, then followed by Visa card at 40.46%, then followed by American Express Card at 10.73% and finally Discover cards at 2.32%, with Mastercard recording the card with the highest failed transactions.
-- Mastercard gave out the highest credit limit at $47million, then followed by Visa Card at $34 million and then American Express at $5million and then Discover cards at $2 million.
+- **Mastercard** recorded the highest transaction failure rate at **46.44%**, followed by **Visa** at **40.46%**, **American Express** at **10.73%**, and **Discover** at **2.32%**
+- **Mastercard** also offered the highest **credit limit**, totaling **$47 million**, followed by **Visa** with **$34 million**, **American Express** with **$5 million**, and **Discover** with **$2 million**.
 
 **Recommendation:** 
+- The high failure rate for **Mastercard (46.44%)** should be a priority for improvement. Investigate the causes of these failures, whether they are due to insufficient balances, incorrect PIN entries, or technical glitches, and work on optimizing systems to reduce this rate, potentially enhancing customer experience.
+- While **Mastercard** has the highest credit limit, it is also experiencing the highest failure rate. Reevaluate the credit policies to ensure that higher credit limits are supported by stronger risk management strategies, to reduce transaction failures without compromising on customer access to credit.
+- Given that **Visa and American Express** have relatively lower failure rates but offer significant credit limits, there may be opportunities to attract more customers by enhancing their offerings and targeting new user segments, possibly offering higher credit limits or additional benefits.
+- Despite the low transaction failure rate and credit limits, **Discover's** smaller customer base and transaction volume could indicate a potential area for growth. Consider marketing strategies to increase Discover card adoption and overall transaction volumes.
 
 ### Tools used:
 - Power BI: Extract, Transform, and Load. Also, for performing exploratory analysis, dashboard creation, interactivity, and visual analysis.
