@@ -1,4 +1,4 @@
-# Aurora-Bank-Data-Insights
+# Aurora-Bank-Transaction-Data-Insights
 ---
 ## Company Overview
 Aurora Bank is a forward-thinking financial institution providing comprehensive credit card services to customers across North America, Europe, Asia-Pacific, and Africa. Partnering with major card networks, including Mastercard, Visa, Discover, and American Express, the bank delivers seamless payment solutions to a diverse global customer base.
